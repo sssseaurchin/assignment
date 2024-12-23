@@ -30,3 +30,4 @@ The `products` table consists of the following columns:
 - The products table is dropped and recreated on every initialization to ensure a fresh state.
 # Issues
 - Site has no scalability thus is not compatible with mobile viewing.
+- Site logo does not show up on the product details view even though it uses the same method as home and search views.
