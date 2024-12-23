@@ -17,17 +17,16 @@ The `products` table consists of the following columns:
   *A detailed description of the product, which explains its features and materials.*
 
 - **price**: `REAL`  
-  *The price of the product (stored as a decimal number, e.g., 29.99).*
+  *The price of the product.*
 
 - **image_url**: `TEXT`  
   *The URL of the product's image for rendering on the website.*
 
 - **categories**: `TEXT`  
-  *A comma-separated list of categories that the product belongs to (e.g., "Clothing, Jeans, Unisex").*
+  *A comma-separated list of categories that the product belongs to.*
 
 # Assumptions
 - Categories are stored as a single string, making it difficult to query for products by category or perform advanced filtering (like "clothing" AND "unisex").
 - The products table is dropped and recreated on every initialization to ensure a fresh state.
 # Issues
 - Site has no scalability thus is not compatible with mobile viewing.
-- No category normalization, categories are saved as a single string where it should be taken from another table dynamically.
