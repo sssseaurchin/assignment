@@ -1,5 +1,6 @@
 # Assignment 2 for SE 3355 Web Programming
 A basic shopping site made with Express, pug and sqlite.
+[Deployed site link.](https://assignment-wegf.onrender.com/)
 # Data Model
 
 ### Table: `products`
